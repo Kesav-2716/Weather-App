@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+                           <!--Fonts Link-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+                            <!--Style Sheet-->
+                            
+    <link rel="stylesheet" href="./Css/Style.css">
+    
+</head>
+<body>
+
+                                   <!--Main Container-->
+
+    <div class="Main-Container">
+                                 <!--Header And Inputs-->
+        <div>
+            <h1>Weather App</h1>
+            <input type="text" id="city-input" name="" placeholder="Search city">
+            <br>
+            <input type="button" onclick="searchCity()" id="search" value="Search">
+        </div>
+                                   <!--City Name And Weather Type Headings-->
+            <div class="result">
+                <span id="city-name"></span>
+
+                                  <!--Weather Type Span-->
+
+               <div class="type">
+                      <span id="weather-type"></span>
+                </div>
+                                  <!--Tem Spans-->
+                        
+                <div>
+                    <h3>Temp :<span id="temp"></span>°F</h3>
+                    <h3>Min-Temp :<span id="min-temp"></span>°F</h3>
+                    <h3>Max-Temp :<span id="max-temp"></span>°F</h3>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+                                 <!--Script Tag-->
+
+    <script src="./Js/Script.js"></script>
+</body>
+</html>
